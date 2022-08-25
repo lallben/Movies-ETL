@@ -19,7 +19,11 @@ The file for the code can be found at [this link.](https://github.com/lallben/Mo
 We then took the data retrirved from Kaggle and Movielens ratings data cleaned it up as well for the purposes stated above.<br>
 The file for the code can be found at [this link.](https://github.com/lallben/Movies-ETL/blob/main/ETL_clean_kaggle_data.ipynb)
 ### Deliverable 4: Create the Movie Database
-The final step was to write code that would take the data from Wikipedia and Kaggle, merged into one table called movies, and then export the movies and the ratings table into the SQL database. We then ran a query in the database to confirm the # of rows for movies which was 6,052<br>
+The final step was to write code that would take the data from Wikipedia and Kaggle, merged into one table called movies, and then export the movies and the ratings table into the SQL database.<br>
+The file for the code can be found at [this link.](https://github.com/lallben/Movies-ETL/blob/main/ETL_create_database.ipynb)
+We then ran a query in the database to confirm the # of rows for movies which was 6,052<br>
 ![Movie Query](https://github.com/lallben/Movies-ETL/blob/main/movies_query.png)
 Another query was run to confirm the # of raows in the ratings table which was 26,024,289 <br>
 ![Ratings Query](https://github.com/lallben/Movies-ETL/blob/main/ratings_query.png)
+## Summary
+Mission Accomplished!
